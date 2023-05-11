@@ -1,8 +1,6 @@
 import json
 import csv
 from operator import attrgetter
-
-
 from note import Note
 
 
