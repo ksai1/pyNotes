@@ -1,6 +1,6 @@
 import json
 import csv
-from operator import itemgetter, attrgetter, methodcaller
+from operator import attrgetter
 
 
 from note import Note
