@@ -18,7 +18,7 @@ if __name__ == '__main__':
             case '1':
                 title = str(input('Заголовок: '))
                 msg = str(input('Содержание: '))
-                ln.__add__(Note(title, msg))
+                ln.add(Note(title, msg))
             case '2':
                 id = str(input('Введите id заметки полностью: '))
                 ln.del_by_id(id)
@@ -28,8 +28,8 @@ if __name__ == '__main__':
             case '4':
                 print(ln.get_all_notes())
             case '5':
-                print('Загрузить')
+                ln.load_from_csv_json()
             case '6':
-                print('Сохранить')
+                ln.save_to_csv_json()
 print('Выход')
 
