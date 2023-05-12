@@ -1,5 +1,5 @@
 from listNotes import ListNotes
-from pyNotes.note import Note
+from note import Note
 
 menu = '1 - Добавить заметку\n' \
        '2 - Удалить заметку\n' \
